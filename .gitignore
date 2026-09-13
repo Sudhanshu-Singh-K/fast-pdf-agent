@@ -1,31 +1,16 @@
-# Environment variables
-.env
-
-# Python virtual environment
+__pycache__/
+*.pyc
+*.pyo
+*.txt
+*.pdf
 .venv/
 venv/
-
-# Python cache
-__pycache__/
-*.py[cod]
-*$py.class
-
-# Test / coverage
-.pytest_cache/
-.coverage
-htmlcov/
-
-# Uploaded files
-uploads/*
-!uploads/.gitkeep
-
-# IDE
+env/
+.env
 .vscode/
 .idea/
-
-# OS files
 .DS_Store
 Thumbs.db
-
-# Local test documents
-test.pdf
+pdf_extractor.py
+pdf_extractor2.py
+pdf_extractor4.py
